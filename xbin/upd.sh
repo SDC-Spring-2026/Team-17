@@ -22,6 +22,7 @@ SAVE () {
 	}
 }
 
+SAVE git@rpi-4b:pub/school/wisc/sdc/fa-25/team.git TO info/refs.rpi
 SAVE https://git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git TO info/refs.rdk
 SAVE https://gitee.com/rapidcow/wisc-sdc-fa25-team.git TO info/refs.gitee
 SAVE https://github.com/SDC-Fall-2025/Team-17.git TO info/refs.github
