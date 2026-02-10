@@ -1,0 +1,20 @@
+ref: refs/heads/master	HEAD
+7ce9f4e4974e521bbb0c4044faafc12575d8b583	HEAD
+cafa8f4849cb6ee1763138254ee5f203a30955c5	refs/heads/bip/club-radar
+7ee246959ed0bf4f3055e0b00c9f498254faf070	refs/heads/bip/minecraft-cv
+903f9a876bfe189f2fe5be67472a445aa53aaad6	refs/heads/bip/task-manager
+7ce9f4e4974e521bbb0c4044faafc12575d8b583	refs/heads/master
+2512d143b23ab7e603f4c3ee8be708e53b4ab168	refs/heads/ship/vercel
+4af4faeb683046217928e1106d20a8e98bae5e5a	refs/heads/test/vercel
+60b001b81074c86f2c15da786fa5a56eee82a0b9	refs/info/rdk-self
+58d672dd09b3a3888a0a8049f6c2efd44e98f430	refs/info/view
+946c52ca350c1ce9b21589b799147f48bc928c4a	refs/logs/@RCs-T480s.local/0/refs/remotes/github.com/SDC-Fall-2025/Team-17.git/master
+263db3bca1587024d8b8b289487ab02843263243	refs/logs/@RCs-T480s.local/0/refs/remotes/github.com/eyzmeng/code-wisc-sdc-fa25-team.git/master
+4fa343972903c30d8b994d59e0921eba4b0cdb61	refs/notes/amlog
+f82ae9055b5be056a65065a9bd660a896ddfe7ac	refs/notes/commits
+8771d1fc9c7fdd408e94888ed1b0e309a9bd0a46	refs/notes/letters
+f51e82189618213f236f3a0343c03b0c0c23a0b9	refs/notes/vercel/deploy
+cafa8f4849cb6ee1763138254ee5f203a30955c5	refs/pull/1/head
+a3dfcac9b8a90ebf0e394864c8e8edc8485e62ee	refs/pulls/github.com/SDC-Fall-2025/Team-17.git/1/v1/head
+cafa8f4849cb6ee1763138254ee5f203a30955c5	refs/pulls/github.com/SDC-Fall-2025/Team-17.git/1/v2/head
+8de52d48cb2171d0902e1ec2d330cb56337c9bc0	refs/pulls/github.com/SDC-Fall-2025/Team-17.git/2/v1/head

@@ -42,11 +42,10 @@ GetOptions(
 	'bin=s' => \my $bin,
 	'ref=s' => \my $ref,
 ) or die "usage: $0 [--bin PATH] [--ref NAME]\n";
-my $Bin = $bin || File::Spec->catfile($ENV{'HOME'}, 'tree', 'utils', 'store-meta');
-my $Ref = $ref || 'refs/info/self';
-
 defined $ENV{GIT_DIR} or die "define GIT_DIR\n";
 chdir $ENV{GIT_DIR} or die "chdir GIT_DIR: $!\n";
+my $Bin = $bin || 'xbin/smx.pl';
+my $Ref = $ref || 'refs/info/self';
 
 my ($user_name, $user_mail) = user;
 @ENV{qw(GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL)} = ($user_name, $user_mail);
