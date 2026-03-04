@@ -3,6 +3,7 @@
 use Getopt::Long qw(GetOptions);
 Getopt::Long::Configure qw( gnu_compat bundling permute no_getopt_compat );
 GetOptions(
+	's|short' => \my $tldr,
 	'm=s@' => \my @mesg,
 	'n|nono' => \my $nono,
 ) or die "usage: $0 [-m MESG] [-n|--nono] [--] ...\n";
@@ -10,6 +11,7 @@ GetOptions(
 my @options;
 
 push @options, map { -m => $_ } @mesg;
+push @options, '-s' if $tldr;
 push @options, '-n' if $nono;
 # Extension to store-meta, where we recognize that mirrored
 # meta-refs are, in fact, semantically volatile in nature too.

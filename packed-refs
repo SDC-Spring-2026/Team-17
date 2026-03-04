@@ -6,7 +6,7 @@ cafa8f4849cb6ee1763138254ee5f203a30955c5 refs/heads/bip/club-radar
 ac28a27a5d9d2afbe8bc8af75526868df4132036 refs/heads/gh-pages
 433835615fc8b49099fb7af59a0559e8a33fdac0 refs/heads/icmp/htdocs
 31882944ac39052eb54d5033b76b87506197903e refs/heads/list/master
-7ce9f4e4974e521bbb0c4044faafc12575d8b583 refs/heads/master
+cd3876f18cd1ed242296f97f6d875637a6339cbd refs/heads/master
 14345202adfd6abc71c9a60c4d56b3c74ae66d53 refs/heads/mod/cgi-bin
 2512d143b23ab7e603f4c3ee8be708e53b4ab168 refs/heads/ship/vercel
 e4474ab29b438568ac6e35e65be709edf253f511 refs/heads/sync/edit
@@ -74,7 +74,7 @@ cafa8f4849cb6ee1763138254ee5f203a30955c5 refs/remotes/git.rapidcow.org/pub/schoo
 ac28a27a5d9d2afbe8bc8af75526868df4132036 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/gh-pages
 433835615fc8b49099fb7af59a0559e8a33fdac0 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/icmp/htdocs
 31882944ac39052eb54d5033b76b87506197903e refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/list/master
-7ce9f4e4974e521bbb0c4044faafc12575d8b583 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/master
+cd3876f18cd1ed242296f97f6d875637a6339cbd refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/master
 14345202adfd6abc71c9a60c4d56b3c74ae66d53 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/mod/cgi-bin
 2512d143b23ab7e603f4c3ee8be708e53b4ab168 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/ship/vercel
 e4474ab29b438568ac6e35e65be709edf253f511 refs/remotes/git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git/sync/edit
@@ -86,9 +86,9 @@ cafa8f4849cb6ee1763138254ee5f203a30955c5 refs/remotes/gitee.com/rapidcow/wisc-sd
 ac28a27a5d9d2afbe8bc8af75526868df4132036 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/gh-pages
 433835615fc8b49099fb7af59a0559e8a33fdac0 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/icmp/htdocs
 31882944ac39052eb54d5033b76b87506197903e refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/list/master
-6924de8095a210fb598d25c28ccb066e87e2d032 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/master
+7ce9f4e4974e521bbb0c4044faafc12575d8b583 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/master
 14345202adfd6abc71c9a60c4d56b3c74ae66d53 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/mod/cgi-bin
-dd28ed52c836e9b8ae2825ad420b69513b9c6bcc refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/ship/vercel
+2512d143b23ab7e603f4c3ee8be708e53b4ab168 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/ship/vercel
 e4474ab29b438568ac6e35e65be709edf253f511 refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/sync/edit
 4af4faeb683046217928e1106d20a8e98bae5e5a refs/remotes/gitee.com/rapidcow/wisc-sdc-fa25-team.git/test/vercel
 cafa8f4849cb6ee1763138254ee5f203a30955c5 refs/remotes/github.com/SDC-Fall-2025/Team-17.git/bip/club-radar
