@@ -1,12 +1,20 @@
 This project has been abandoned on 2025 December 11.
-Vercel builds will be destroyed by **this weekend**.
 
-After that, all refs will be uploaded to this repository,
-this repository will be effectively archived (unless I want
-to update it, or if someone from my team or the club cares
-enough to spoil it), most other repositories are archived
-(i.e. read-only), and mirrors/deployments will be **deleted**
-(after I save their deployment logs that is).
+In addition, the canonical repository path is:
+
+*   https://git.rapidcow.org/pub/school/wisc/sdc/fa-25/team/
+*   https://github.com/eyzmeng/code-wisc-sdc-fa25-team
+*   https://gitee.com/rapidcow/wisc-sdc-fa25-team
+
+(with the latter two serving as backups, in case I get
+overwhelmed by bots) and the **home page** is:
+
+*   https://rapidcow.github.io/site-wisc-sdc-fa25-team/
+
+The GitHub organization is confusing because it has
+been renamed from SDC-Fall-2025 to SDC-Spring-2026, but
+the precense of this repository is in no way an indication
+of my participation in the new term.
 
 
 # Club Radar
@@ -16,12 +24,12 @@ This is a Svelte web site over Python WSGI, specifically
 with CSS written in [Tailwind CSS v4](https://tailwindcss.com/blog/tailwindcss-v4),
 and database connectivity managed by [SQLAlchemy](https://www.sqlalchemy.org/).
 The database is a static read-only SQLite file, and the
-SQL clauses used to create it can be found at [api/var](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/tree/master/api/var).
+SQL clauses used to create it can be found at [api/var](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/tree/master/api/var).
 
 *   Web site: <https://clubradar.endfindme.com/> or
     <https://src-wisc-sdc-fa25-team.vercel.app/>.
     [**TO BE REMOVED**]
-*   Web docs: [[frontend](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/web/README.md)] [[backend](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/api/README.md)]
+*   Web docs: [[frontend](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/blob/master/web/README.md)] [[backend](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/blob/master/api/README.md)]
 
 
 I use Vercel to deploy the web site.
@@ -66,7 +74,7 @@ you contacted me so I can un-recommend them as hard as I can.
 
 ## License
 
-[MIT](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/blob/master/LICENSE) since [#2](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/issues/2) and [0934abc](https://github.com/SDC-Fall-2025/Team-17-Club-Radar/commit/0934abcf13d14c008b72c15b3218940f5f802d50).
+[MIT](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/blob/master/LICENSE) since [#2](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/issues/2) and [0934abc](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/commit/0934abcf13d14c008b72c15b3218940f5f802d50).
 
 
 ## Contributing
@@ -92,9 +100,3 @@ sub   ed25519/7EF2A9304CD033CA 2024-08-09 [S] [expires: 2026-07-09]
 ```
 
 Note that keys may be renewed in the future.
-
-This repository is distributed across a few places:
-
-*   https://git.rapidcow.org/pub/school/wisc/sdc/fa-25/team/ (**new!**)
-*   https://github.com/eyzmeng/code-wisc-sdc-fa25-team
-*   https://gitee.com/rapidcow/wisc-sdc-fa25-team
