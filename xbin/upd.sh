@@ -1,7 +1,42 @@
 #!/usr/bin/env bash
 
-DIR="$(dirname "$BASH_SOURCE")"
 set -e -o pipefail
+DIR="$(dirname "${BASH_SOURCE[0]}")"
+
+# puts is like libc puts(3), not like fputs(3),
+# or like Tcl... nor Ruby.  Without arguments,
+# it just acts like cat, except it ensures that
+# every line ends with at least one newline.
+puts () {
+	# awk trick i learned when doing my CS472 hw:
+	# https://unix.stackexchange.com/a/507472
+	if [ $# -ne 0 ]; then
+		printf '%s\n' "$*"
+	else
+		cat -
+	fi | awk 1
+}
+
+usage="usage: $0 [-h] [-m MESG]"
+bye () { puts "$@"; exit 0; }
+die () { puts "$@" >&2; exit 1; }
+
+while getopts m:h opt
+do
+	case "$opt" in
+	m)
+		MESG=$OPTARG
+		;;
+	h)
+		bye "$usage" >&2
+		;;
+	*)
+		die <<USAGE
+unknown option: $opt
+$usage
+USAGE
+	esac
+done
 
 # Only run when we are talking to a tty
 say () {
@@ -31,4 +66,4 @@ SAVE https://github.com/eyzmeng/code-wisc-sdc-fa25-team-club-radar.git TO info/r
 SAVE https://github.com/eyzmeng/site-wisc-sdc-fa25-team.git TO info/refs.downstream
 SAVE https://github.com/rapidcow/site-wisc-sdc-fa25-team.git TO info/refs.gh-pages
 
-"$DIR"/smx.pl -m "update OK" "$DIR"/..
+"$DIR"/smx.pl -m "${MESG:-update OK}" "$DIR"/..
