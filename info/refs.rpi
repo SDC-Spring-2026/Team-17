@@ -1,5 +1,5 @@
 ref: refs/heads/master	HEAD
-7ce9f4e4974e521bbb0c4044faafc12575d8b583	HEAD
+cd3876f18cd1ed242296f97f6d875637a6339cbd	HEAD
 cafa8f4849cb6ee1763138254ee5f203a30955c5	refs/heads/bip/club-radar
 7ee246959ed0bf4f3055e0b00c9f498254faf070	refs/heads/bip/minecraft-cv
 903f9a876bfe189f2fe5be67472a445aa53aaad6	refs/heads/bip/task-manager
@@ -7,13 +7,13 @@ cafa8f4849cb6ee1763138254ee5f203a30955c5	refs/heads/bip/club-radar
 ac28a27a5d9d2afbe8bc8af75526868df4132036	refs/heads/gh-pages
 433835615fc8b49099fb7af59a0559e8a33fdac0	refs/heads/icmp/htdocs
 31882944ac39052eb54d5033b76b87506197903e	refs/heads/list/master
-7ce9f4e4974e521bbb0c4044faafc12575d8b583	refs/heads/master
+cd3876f18cd1ed242296f97f6d875637a6339cbd	refs/heads/master
 14345202adfd6abc71c9a60c4d56b3c74ae66d53	refs/heads/mod/cgi-bin
 2512d143b23ab7e603f4c3ee8be708e53b4ab168	refs/heads/ship/vercel
 e4474ab29b438568ac6e35e65be709edf253f511	refs/heads/sync/edit
 4af4faeb683046217928e1106d20a8e98bae5e5a	refs/heads/test/vercel
 60b001b81074c86f2c15da786fa5a56eee82a0b9	refs/info/rdk-self
-cdf8699c062ecf9852562e646aaa2b257cb83298	refs/info/rpi-self
+ec67d0b1070267b5826a747638652e4c5e2d655d	refs/info/rpi-self
 7c81f4da161b7f0dcb086e0d085db949dd12a89b	refs/info/self
 58d672dd09b3a3888a0a8049f6c2efd44e98f430	refs/info/view
 946c52ca350c1ce9b21589b799147f48bc928c4a	refs/logs/@RCs-T480s.local/0/refs/remotes/github.com/SDC-Fall-2025/Team-17.git/master
