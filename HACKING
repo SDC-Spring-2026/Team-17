@@ -113,13 +113,34 @@ Now you can finally run the backend:
 
     poetry run python -m app
 
+     !!! >>> NOTE <<< !!!
+     ~>* This no longer works for me somehow.  I don't know if Poetry
+     ~>* has decided to not inject sys.path from pyproject.toml anymore.
+     ~>* Either way you need to export environment variable "PYTHONPATH"
+     ~>* and set it to "lib".  If you are on Windows, tough luck, chdir
+     ~>* to app or something idk.
+     ~>*
+     ~>* Oh wait I have claude!  Let me ask what they think
+     ~>*
+     ~>* python -c "import sys, runpy; sys.path.insert(0, 'lib'); runpy.run_module('app', run_name='__main__', alter_sys=True)"
+     ~>*
+     ~>* Yeah.... do that.  That should do it. :)  (Add `poetry run'
+     ~>* in the front if `python' is not on your path.)
+
 This runs it on port 8000.  Though you may choose a different port:
 
     poetry run python -m app 8080
 
+    ~>* Portable version!
+    ~>* poetry run python -c "import sys, runpy; sys.path.insert(0, 'lib'); runpy.run_module('app', run_name='__main__', alter_sys=True)" 8000
+
 To get the full command usage, pass -h:
 
     $ poetry run python -m app -h
+
+    ~>* Portable version!
+    ~>* poetry run python -c "import sys, runpy; sys.path.insert(0, 'lib'); runpy.run_module('app', run_name='__main__', alter_sys=True)" -h
+
     usage: __main__.py [-h] [-d] [-b BIND] [--cors] [port]
 
     positional arguments:
