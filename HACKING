@@ -141,7 +141,7 @@ To get the full command usage, pass -h:
     ~>* Portable version!
     ~>* poetry run python -c "import sys, runpy; sys.path.insert(0, 'lib'); runpy.run_module('app', run_name='__main__', alter_sys=True)" -h
 
-    usage: __main__.py [-h] [-d] [-b BIND] [--cors] [port]
+    usage: python -m app [-h] [-d] [-b BIND] [--cors] [port]
 
     positional arguments:
       port        listening port (default: 8000)
@@ -150,7 +150,10 @@ To get the full command usage, pass -h:
       -h, --help  show this help message and exit
       -d          enable debug (default: False)
       -b BIND     bind address (default: 127.0.0.1)
-      --cors      allow Cross-Origina Requests (default: False)
+      --cors      allow Cross-Origin Requests (requires
+                    flask-cors, which is installed with
+                       'poetry install --with devel')
+                  (default: False)
 
 ***--> Running frontend AND backend
 
