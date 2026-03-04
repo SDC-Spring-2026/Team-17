@@ -1,8 +1,10 @@
 ref: refs/heads/ship/vercel	HEAD
-ddc95e7122c5ec6f73ae3629db8030c63543fcf3	HEAD
+c6684a7222e127f38041bc5e73c94c70817c300e	HEAD
 cd3876f18cd1ed242296f97f6d875637a6339cbd	refs/heads/master
-ddc95e7122c5ec6f73ae3629db8030c63543fcf3	refs/heads/ship/vercel
+c6684a7222e127f38041bc5e73c94c70817c300e	refs/heads/ship/vercel
 4af4faeb683046217928e1106d20a8e98bae5e5a	refs/heads/test/vercel
-19656f48b841eebfd8a3e54d70b0bf4a633fffa5	refs/info/view
-5b42477ba7cf2715295309a3fa293fc7cad2c570	refs/notes/commits
-621ffa6f8bea282418c039f178b3b22512d2a43d	refs/notes/vercel/deploy
+57908b3af70b2412a938f45a1927dfe7ffb187d6	refs/info/view
+4fa343972903c30d8b994d59e0921eba4b0cdb61	refs/notes/amlog
+f82ae9055b5be056a65065a9bd660a896ddfe7ac	refs/notes/commits
+8771d1fc9c7fdd408e94888ed1b0e309a9bd0a46	refs/notes/letters
+f51e82189618213f236f3a0343c03b0c0c23a0b9	refs/notes/vercel/deploy

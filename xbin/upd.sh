@@ -28,13 +28,10 @@ do
 		MESG=$OPTARG
 		;;
 	h)
-		bye "$usage" >&2
+		bye "$usage"
 		;;
 	*)
-		die <<USAGE
-unknown option: $opt
-$usage
-USAGE
+		die "$usage"
 	esac
 done
 

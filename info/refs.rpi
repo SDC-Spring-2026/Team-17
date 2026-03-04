@@ -15,7 +15,7 @@ e4474ab29b438568ac6e35e65be709edf253f511	refs/heads/sync/edit
 60b001b81074c86f2c15da786fa5a56eee82a0b9	refs/info/rdk-self
 ec67d0b1070267b5826a747638652e4c5e2d655d	refs/info/rpi-self
 7c81f4da161b7f0dcb086e0d085db949dd12a89b	refs/info/self
-58d672dd09b3a3888a0a8049f6c2efd44e98f430	refs/info/view
+57908b3af70b2412a938f45a1927dfe7ffb187d6	refs/info/view
 946c52ca350c1ce9b21589b799147f48bc928c4a	refs/logs/@RCs-T480s.local/0/refs/remotes/github.com/SDC-Fall-2025/Team-17.git/master
 263db3bca1587024d8b8b289487ab02843263243	refs/logs/@RCs-T480s.local/0/refs/remotes/github.com/eyzmeng/code-wisc-sdc-fa25-team.git/master
 19656f48b841eebfd8a3e54d70b0bf4a633fffa5	refs/mirrors/codeberg.org/rapidcow/code-wisc-sdc-fa25-team.git/refs/info/view
