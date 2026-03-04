@@ -7,7 +7,18 @@ You should have read HACKING already.
 Start development server using
 
 ```
-poetry run python -m app
+poetry run python -m app [...]
+```
+
+You can follow up `[...]` with optional arguments.
+Pass `-h` to see what they are.  If that doesn't
+work, blame it on Poetry, and try injecting into
+sys.path yourself:
+
+```
+PYTHONPATH=lib poetry run python -m app [...]
+env PYTHONPATH=lib poetry run python -m app [...]
+poetry run python -c "import sys, runpy; sys.path.insert(0, 'lib'); runpy.run_module('app', run_name='__main__', alter_sys=True)" [...]
 ```
 
 This listens on port 8000 by default.  Access <http://localhost:8000/>
