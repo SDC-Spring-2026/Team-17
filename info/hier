@@ -56,8 +56,8 @@ Where I mark nothing, it means they are (to my knowledge) gone.
     ||||https://github.com/rapidcow/site-wisc-sdc-fa25-team
     |||||
     x     refs/info/self        bare repository information
-    xxxxx refs/info/view        public version of info/self
-    xxxxx refs/info/rdk-self    auditing log on git.rapidcow.org
+    xxxx? refs/info/view        public version of info/self
+    x???? refs/info/rdk-self    auditing log on git.rapidcow.org
     x     refs/info/rpi-self    auditing log on my Raspberry Pi
     xxxx  refs/heads/master     HEAD branch
     xxxx  refs/heads/bip/*      branch* of interest-worthy projects
@@ -70,10 +70,10 @@ Where I mark nothing, it means they are (to my knowledge) gone.
     xxxx? refs/heads/mod/cgi-bin   impl of request-pull.cgi
     xxxx  refs/heads/list/master   public inbox v1 archive
     xxxx? refs/notes/
-                     amlog           Message-Id as the cause of merge
-                     commits         Commit notes
-                     letters         Pull Requests (see "LETTER FORMAT")
-                     vercel/deploy   Vercel deployment log
+    xxxx             amlog           Message-Id as the cause of merge
+    xxxx             commits         Commit notes
+    xxxx             letters         Pull Requests (see "LETTER FORMAT")
+    xxxx             vercel/deploy   Vercel deployment log
     x?xx? refs/pull/
                     [TODO]
     xxxx? refs/pulls/
