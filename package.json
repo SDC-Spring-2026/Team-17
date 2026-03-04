@@ -1,7 +1,7 @@
 {
   "name": "wisc-club-radar",
   "version": "0.0.0",
-  "description": "win.wisc.edu with worse query abilities",
+  "description": "win.wisc.edu with worse query abilities DO NOT CONTACT ME FOR SUPPORT",
   "keywords": [
     "svelte",
     "flask"
@@ -9,17 +9,14 @@
   "homepage": "https://rapidcow.github.io/site-wisc-sdc-fa25-team/ideas/club-radar",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SDC-Fall-2025/Team-17-Project.git"
+    "url": "git+https://git.rapidcow.org/pub/school/wisc/sdc/fa-25/team.git"
   },
   "license": "MIT",
   "private": true,
-  "author": "Team 17/11 <wisc-sdc-fa25-team@list.rapidcow.org>",
-  "contributers": [
-    {
-      "name": "Ethan Meng",
-      "email": "uwisc@endfind.me"
-    }
-  ],
+  "author": {
+    "name": "Ethan Meng",
+    "email": "uwisc@endfind.me"
+  },
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
