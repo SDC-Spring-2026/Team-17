@@ -17,7 +17,9 @@
   <p class="text-center text-sm italic text-gray-500 px-6 m-auto w-full">
     This site is run by <a href="https://rapidcow.github.io/site-wisc-sdc-fa25-team/"
       >SDC Fall 2025 Team 17</a
-    >! Read our source code <a href="https://github.com/SDC-Fall-2025/Team-17">here</a>.
+    >. Read our source code on GitHub
+    <s><a class="text-inherit no-underline cursor-default pointer-events-none" href="https://github.com/SDC-Fall-2025/Team-17">here</a></s>
+    <a href="https://github.com/eyzmeng/code-wisc-sdc-fa25-team">here</a>.
   </p>
   <p class="text-center"></p>
   <p class="text-center text-gray-500 px-6 m-auto w-2xl">

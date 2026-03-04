@@ -1,17 +1,25 @@
 @import 'tailwindcss';
 
-a {
-  @apply underline text-blue-500;
-}
+/*
+ * In order to let inline-CSS utility classes override us,
+ * we need the base layer.  Thanks Claude for the reminder!
+ *
+ * https://tailwindcss.com/docs/adding-custom-styles#adding-base-styles
+ */
+@layer base {
+  a {
+    @apply underline text-blue-500;
+  }
 
-a:hover {
-  @apply underline font-semibold text-blue-500;
-}
+  a:hover {
+    @apply underline font-semibold text-blue-500;
+  }
 
-a:visited {
-  @apply underline text-purple-700;
-}
+  a:visited {
+    @apply underline text-purple-700;
+  }
 
-a:hover {
-  @apply underline font-semibold text-purple-500;
+  a:hover {
+    @apply underline font-semibold text-purple-500;
+  }
 }
