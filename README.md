@@ -80,23 +80,3 @@ you contacted me so I can un-recommend them as hard as I can.
 ## Contributing
 
 Read [HACKING](../HACKING).
-
-## Integrity
-
-All commits I have authored are signed by this key:
-[[Web Key Directory](https://openpgpkey.endfind.me/.well-known/openpgpkey/endfind.me/hu/ho5hkx8deahfsna6y1xe99two3x3mxi7?l=uwisc)]
-[[Ubuntu](https://keyserver.ubuntu.com/pks/lookup?search=0x7586e1e327646750684efbe475c8144888bff08a&op=get)]
-[[OpenPGP](https://keys.openpgp.org/vks/v1/by-fingerprint/7586E1E327646750684EFBE475C8144888BFF08A)]
-
-```
-pub   ed25519/75C8144888BFF08A 2024-08-09 [C] [expires: 2026-07-09]
-      7586E1E327646750684EFBE475C8144888BFF08A
-uid                            Ethan Meng <ethan.meng@wisc.edu>
-uid                            Yizheng Meng <meng69@wisc.edu>
-uid                            Ethan Meng <uwisc@endfind.me>
-uid                            Yizheng Meng <yizheng.meng@wisc.edu>
-uid                            Ethan Meng <meng69@wisc.edu>
-sub   ed25519/7EF2A9304CD033CA 2024-08-09 [S] [expires: 2026-07-09]
-```
-
-Note that keys may be renewed in the future.
