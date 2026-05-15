@@ -171,7 +171,7 @@ CORS is nasty.  You have two options:
     way (because you don't have Python installed or don't want to
     install it?) modify vite.config.ts so that /api is proxied from
         https://clubradar.endfindme.com
-    instead.
+    instead.  [[This is no longer possible as the site is dead.]]
 
     Option 2:  Reverse proxy both frontend and backend from
     a separate WSGI.

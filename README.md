@@ -26,9 +26,7 @@ and database connectivity managed by [SQLAlchemy](https://www.sqlalchemy.org/).
 The database is a static read-only SQLite file, and the
 SQL clauses used to create it can be found at [api/var](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/tree/master/api/var).
 
-*   Web site: <https://clubradar.endfindme.com/> or
-    <https://src-wisc-sdc-fa25-team.vercel.app/>.
-    [**TO BE REMOVED**]
+*   Web site: [GONE]
 *   Web docs: [[frontend](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/blob/master/web/README.md)] [[backend](https://github.com/eyzmeng/code-wisc-sdc-fa25-team/blob/master/api/README.md)]
 
 

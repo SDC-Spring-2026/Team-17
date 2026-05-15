@@ -21,13 +21,4 @@
     <s><a class="text-inherit no-underline cursor-default pointer-events-none" href="https://github.com/SDC-Fall-2025/Team-17">here</a></s>
     <a href="https://github.com/eyzmeng/code-wisc-sdc-fa25-team">here</a>.
   </p>
-  <p class="text-center"></p>
-  <p class="text-center text-gray-500 px-6 m-auto w-2xl">
-    (<span class="text-red-500">NOTE: This site
-      (clubradar.endfindme.com) will be <strong>closed</strong>.
-      Although it will exist only for as long as
-      I find it useful to reference it, previous
-      Vercel builds deployed from GitHub CI will
-      be removed as soon as I am able.</span>)
-  </p>
 </footer>
